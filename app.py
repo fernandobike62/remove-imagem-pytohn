@@ -49,7 +49,7 @@ def remove_background():
         print(f"Erro durante o processamento: {e}")
         return jsonify({"error": f"Erro interno ao processar a imagem: {str(e)}"}), 500
 
-if __name__ == '__main__':
-    # Usar a porta fornecida pelo Render (ou 5000 como fallback)
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+
+
+
+

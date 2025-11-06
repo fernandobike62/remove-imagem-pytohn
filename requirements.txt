@@ -1,3 +1,5 @@
 Flask
 rembg[cli]
 Pillow
+onnxruntime
+gunicorn
